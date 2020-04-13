@@ -1,4 +1,3 @@
-
 .col-md-7{
     background-color: rgba(242, 249, 255, 0.521);
 }
@@ -7,7 +6,7 @@
 font-family: 'Kaushan Script', cursive;
  font-style: initial;
 font-weight: bolder;
-font-size: 60px;
+font-size: 40px;
 color: rgba(51, 78, 185, 0.808);
 margin-left: 40px;
 top: 42.49px;
@@ -17,7 +16,7 @@ top: 42.49px;
 font-family:'Roboto', sans-serif;
 font-style: normal;
 font-weight: bold;
-font-size: 30px;
+font-size: 20px;
 line-height: 68px;
 letter-spacing: 0.035em;
 color: #3750B2;
@@ -30,7 +29,7 @@ color: #3750B2;
 font-family:'Roboto', sans-serif;
 font-style: normal;
 font-weight: normal;
-font-size: 13px;
+font-size: 11px;
 letter-spacing: 0.035em;
 margin-left: 40px;
 margin-top: -2em;
@@ -45,23 +44,69 @@ img{
 
 .col-md-5{
     background-color: rgb(232, 245, 255);
+    height: 100vh;
 }
 
 .form-group{
- background: rgba(237, 243, 251, 0.8);
-box-shadow: 0px 7px 20px rgba(218, 218, 218, 0.247);
-border-radius: 6px;
-width: 490px;
-margin-left: 9px;
-margin-right: 10px;
-font-size: 10px;
-color: rgba(192, 183, 183, 0.562); 
+    background: rgba(237, 243, 251, 0.8);
+   box-shadow: 0px 7px 20px rgba(255, 247, 247, 0.63);
+   border-radius: 6px;
+   width: 490px;
+   margin-left: 9px;
+   margin-right: 10px;
+   color:  #3750B2; 
+   display: flex;
+   
+   }
+   
+
+#fav {
+    padding-top: 14px;
+    padding-right: 5px;
+    background-color: white;
+    padding-left: 10px;
+    border-left: 1px solid  #3750B2;
+    border-top: 1px solid  #3750B2;
+    border-bottom: 1px solid  #3750B2;
+    color: #3750B2;
+    border-radius: 6px 0px 0px 6px;
+    font-size: 10px;
 }
 
+#exampleFormControlInput1 {
+    border-left: none;
+    border-radius: 0px 6px 6px 0px;
+    border-right: 1px solid  #3750B2;
+    border-top: 1px solid  #3750B2;
+    border-bottom: 1px solid  #3750B2;
+}
+
+#eye {
+    padding-top: 13px;
+    padding-right: 10px;
+    background-color: white;
+    padding-left: 10px;
+    border-right: 1px solid  #3750B2;
+    border-top: 1px solid  #3750B2;
+    border-bottom: 1px solid  #3750B2;
+    color: #3750B2;
+    border-radius: 0px 6px 6px 0px;
+    font-size: 14px;
+}
+
+
+#exampleFormControlInput2{
+    border-left: none;
+    border-right: none;
+    border-radius: 0px;
+    border-top: 1px solid  #3750B2;
+    border-bottom: 1px solid  #3750B2;
+
+}
 ::placeholder{
 font-family: Roboto;
 font-style: normal;
-font-size: 11px;
+font-size: 8.3px;
 letter-spacing: 0.035em;
 }
 
@@ -69,20 +114,24 @@ letter-spacing: 0.035em;
     margin-left: 15px;
 }
 
-.Sign-up{
-    margin-left: 205px;
+.btn{
+    width: 100px;
+    margin-left: 190px;
     text-align: center;
     letter-spacing: 0.06em;
     color: rgb(24, 57, 185);
-    background: rgb(227, 243, 255);
-  box-shadow: 0px 7px 20px rgba(55, 80, 178, 0.116);
-border-radius: 10px;
-font-size: 15px;
-font-weight: bold;
-height: 35px;
-margin-top: 15px;
-font-family: Roboto;
-}
+    background:  #E8F5FF;
+    border-radius: 10px;
+    font-size: 13px;
+    font-weight: bold;
+    height: 35px;
+    margin-top: 30px;
+    font-family: Roboto;
+    box-shadow: 0px 7px 20px rgba(141, 139, 139, 0.521);
+    }
+    .btn:hover{
+        color: rgba(67, 34, 143, 0.623);
+    }
 
 .or {
     font-family: Roboto;
@@ -90,21 +139,21 @@ font-family: Roboto;
     letter-spacing: 0.06em;
     color: rgb(8, 44, 187);
     font-weight: bold;
-    font-size: 15px;
+    font-size: 13px;
     margin-top: 5px;
 }
 .field{
     display: flex;
-    margin-top: -5em;
+    margin-top: -3em;
 }
 
 .FB{
-    height: 75px;
+    height: 68px;
     margin-left: 2em;
 }
 
 .google{
-    height: 75px;
+    height: 68px;
 margin-left: -1em;
 }
 
@@ -112,34 +161,24 @@ margin-left: -1em;
     display: flex;
     font-family: Roboto;
     font-size: 11px;
-
     margin-left: 43px;
     letter-spacing: 0.035em;
     color: rgba(0, 0, 0, 0.8);
+    margin-top: -1em;
 }
 
 .IN{
     float: right;
-    margin-top: -1.1em;
-    margin-left: 133px;
+    margin-left: 100px;
     letter-spacing: 0.035em;
 }
 .vector{
-    height: 100px;
-    width: 575px;
+    height: 102px;
+    width: 576px;
     margin-top: -2em;
-    margin-left: -1.5em;
+    margin-left: -1.35em;
     margin-right: -2em;
-
-}
-#user {
-			
-    padding: 10px;
-    padding-top: 10px;
-    border-radius: 5px 0px 0px 5px;
-    border-top: 1px  solid #ddd;
-    border-bottom: 1px solid #ddd;
-    border-left: 1px solid #ddd;
+    margin-bottom: -5em;
 }
 
 @media only screen and (max-width:500px) {
@@ -155,7 +194,7 @@ margin-left: -1em;
         margin-top: -1.2em;
         margin-left: -1.5em;
         margin-right: -15em;
-    
+
     }
 }
 @media only screen and (max-width:500px) {
